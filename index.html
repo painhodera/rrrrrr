@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐</text></svg>">
+    <title>Wanted - Danicão</title>
+    <style>
+        /* Centralização total da página */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #2c1b0e; /* Cor de fundo madeira escura */
+            background-image: url('https://www.transparenttextures.com');
+            font-family: 'Georgia', serif;
+        }
+
+        /* Estrutura do Cartaz */
+        .cartaz {
+            background-color: #e2c08d; /* Cor de papel envelhecido */
+            background-image: url('https://www.transparenttextures.com');
+            width: 350px;
+            padding: 40px;
+            border: 15px solid #5d3a1a; /* Borda tipo moldura de madeira */
+            box-shadow: 0 0 50px rgba(0,0,0,0.5), inset 0 0 100px rgba(0,0,0,0.2);
+            text-align: center;
+            color: #3d2616;
+            position: relative;
+        }
+
+        /* Texto principal */
+        .wanted {
+            font-size: 50px;
+            font-weight: bold;
+            margin: 0;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            border-bottom: 4px solid #3d2616;
+        }
+
+        .nome {
+            font-size: 28px;
+            margin: 20px 0 10px 0;
+            font-weight: bold;
+        }
+
+        .subtitulo {
+            font-style: italic;
+            font-size: 16px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        /* Espaço para a imagem */
+        .foto-container {
+            width: 100%;
+            height: 250px;
+            background-color: #c4a473;
+            border: 5px solid #3d2616;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            filter: sepia(1) contrast(1.2); /* Efeito envelhecido na foto */
+        }
+
+        .foto-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Recompensa */
+        .recompensa {
+            margin-top: 30px;
+            font-size: 35px;
+            font-weight: bold;
+            border-top: 4px dashed #3d2616;
+            padding-top: 15px;
+        }
+
+        .valor {
+            color: #7a1d1d; /* Tom de vermelho velho */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cartaz">
+        <h1 class="wanted">WANTED</h1>
+        
+        <div class="nome">Danicão</div>
+        <span class="subtitulo">(Indivíduo Periguloso)</span>
+
+        <div class="foto-container">
+            <!-- Substitua o SRC pela URL da imagem do Danicão -->
+            <img src="C:\Users\Micro\Desktop\AV2\WhatsApp Image 2026-02-10 at 16.10.37.jpeg" alt="Danicão">
+        </div>
+
+        <div class="recompensa">
+            REWARD<br>
+            <span class="valor">$100,000.00</span>
+        </div>
+    </div>
+
+</body>
+</html>
